@@ -1,4 +1,12 @@
 # fatjar-cli
 
 A simple example to pack your project into a fat jar and run.  
-Example: `java -jar build/libs/fatjar-cli.jar --url https://httpbin.org/headers`
+
+## Run as a script
+
+`./src/main/groovy/fatjar-cli.groovy hello`
+
+## Build and run as a jar
+
+`./gradlew clean build`
+`java -jar build/libs/fatjar-cli.jar hello`
