@@ -8,5 +8,5 @@ A simple example to pack your project into a fat jar and run.
 
 ## Build and run as a jar
 
-`./gradlew clean build`
+`./gradlew clean build`  
 `java -jar build/libs/fatjar-cli.jar hello`
